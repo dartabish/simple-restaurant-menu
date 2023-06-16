@@ -68,6 +68,7 @@ li:last-child a:hover {
 
 .coming-soon {
     margin-bottom: 1rem;
+    font-size: 1.25rem;
 }
 
 h1:not(#menu-title) {
