@@ -61,13 +61,17 @@ li:last-child a:hover {
     word-spacing: 2px;
 }
 
+.home {
+    font-size: 1.25rem;
+}
+
 #amazing-foods a:hover,
-.go-back-link:hover {
+.home:hover {
     color: #F092DD;
 }
 
 .coming-soon {
-    margin-bottom: 1rem;
+    margin-bottom: 9px;
     font-size: 1.25rem;
 }
 
