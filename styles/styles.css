@@ -7,52 +7,74 @@
 }
 
 body {
-    margin: 0.5rem;
+    margin: 1rem 2rem;
     font-family: 'DynaPuff', cursive;
-    font-weight: lighter;
     text-align: center;
 }
 
-nav {
+.menu {
+    margin: 0 auto;
     border: 1px solid #392F5A;
     border-radius: 2rem;
     max-width: 600px;
-    margin: 0 auto 1rem;
-    font-size: 3rem;
-    line-height: 7rem;
+    line-height: 6rem;
 }
 
-h2 {
-    padding: 1rem;
+#menu-title {
+    font-size: 2.5rem;
     background-color: #F092DD;
-    border-radius: 2rem 2rem 0 0;
+    border-top-left-radius: 2rem;
+    border-top-right-radius: 2rem;
 }
 
 ul {
     list-style-type: none; 
 }
 
-li{
+ul li{
+    font-size: 1.75rem;
     border: 1px solid #392F5A;
 }
 
-li a {
+ul li a {
     display: block;
 }
 
-li a,
-li a:visited {
+ul li a,
+ul li a:visited {
     text-decoration: none;
     color: #392F5A;
 }
 
-li a:hover,
-li a:focus {
+ul li :is(a:hover, a:focus) {
     background-color: #392F5A;
     color: #F092DD;
 }
 
-li:last-child {
-    border-radius: 0 0 2rem 2rem;
+li:last-child,
+li:last-child a:hover {
+    border-bottom-left-radius: 2rem;
+    border-bottom-right-radius: 2rem;
 }
+
+#amazing-foods {
+    margin: 2rem 0;
+    font-size: 1rem;
+}
+
+#amazing-foods a:hover,
+.go-back-link:hover {
+    color: #F092DD;
+}
+
+.coming-soon {
+    margin-bottom: 1rem;
+}
+
+h1:not(#menu-title) {
+    margin: 1rem 0;
+    font-size: 2.5rem;
+}
+
+
 
