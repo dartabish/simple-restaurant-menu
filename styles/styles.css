@@ -7,7 +7,9 @@
 }
 
 body {
-    margin: 1rem 2rem;
+    max-width: 600px;
+    margin: 1rem auto;
+    padding: 0 2rem;
     font-family: 'DynaPuff', cursive;
     text-align: center;
 }
@@ -16,12 +18,11 @@ body {
     margin: 0 auto;
     border: 1px solid #392F5A;
     border-radius: 2rem;
-    max-width: 600px;
     line-height: 6rem;
 }
 
 #menu-title {
-    font-size: 2.5rem;
+    font-size: 3rem;
     background-color: #F092DD;
     border-top-left-radius: 2rem;
     border-top-right-radius: 2rem;
@@ -36,12 +37,9 @@ ul li{
     border: 1px solid #392F5A;
 }
 
-ul li a {
-    display: block;
-}
-
 ul li a,
 ul li a:visited {
+    display: block;
     text-decoration: none;
     color: #392F5A;
 }
@@ -59,7 +57,8 @@ li:last-child a:hover {
 
 #amazing-foods {
     margin: 2rem 0;
-    font-size: 1rem;
+    font-size: 1.25rem;
+    word-spacing: 2px;
 }
 
 #amazing-foods a:hover,
@@ -72,8 +71,17 @@ li:last-child a:hover {
 }
 
 h1:not(#menu-title) {
+    background-color: #F092DD;
     margin: 1rem 0;
+    padding: 1.5rem 0;
     font-size: 2.5rem;
+    border: 1px solid #392F5A;
+    border-top-left-radius: 2rem;
+    border-top-right-radius: 2rem;
+    border-bottom-left-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+    
+    
 }
 
 
