@@ -59,6 +59,8 @@ li:last-child a:hover {
     margin: 2rem 0;
     font-size: 1.25rem;
     word-spacing: 2px;
+    position: sticky;
+    bottom: 0;
 }
 
 .home {
